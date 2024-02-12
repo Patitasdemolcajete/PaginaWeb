@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Labs</title>
+</head>
+<body>
+<form action="inserta.php" method="post" >
+	<table width="50%" align="center">
+		<tr><th>Dame tu numero de control</th>
+			<td><input type="text" name="numerodecontrol" value=""/></td>
+		</tr>
+		<tr><th>Dame tu nombre</th>
+			<td><input type="text" name="nombre" value=""/></td>
+		</tr>
+		<tr><th>Dame tu carrerra</th>
+			<td><input type="text" name="carrera" value=""/></td>
+		</tr>
+	</table>
+	<br/>
+	<center><input type="submit" value="Inserta" class="boton" />
+</form>
+</body>
+</html>
